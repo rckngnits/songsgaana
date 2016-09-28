@@ -1,0 +1,4 @@
+RewriteEngine on
+RewriteCond %{HTTP_HOST} !^www.songsgaana.com$
+RewriteRule ^(.*)$ http://www.songsgaana.com/$1 [L]
+
